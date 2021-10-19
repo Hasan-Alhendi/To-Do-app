@@ -1,0 +1,56 @@
+name: todo
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  get_storage:
+  get:
+  flutter_local_notifications:
+  flutter_native_timezone:
+  intl:
+  google_fonts:
+  date_picker_timeline:
+  sqflite:
+  flutter_staggered_animations:
+  flutter_svg:
+  rxdart:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+  flutter_lints:
+
+  
+#  flutter_lints: ^1.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/person.jpeg
+  - images/task.svg
+  
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/appicon.jpeg"
+ 
+  uses-material-design: true
+
+ 
+
